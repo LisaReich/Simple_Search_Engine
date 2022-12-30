@@ -19,6 +19,7 @@ Myrtle Medina
 Erick Burgess
 ```
 - If the strategy is ```ALL```, the program prints lines containing all the words from the query.
+
 Query:
 
 ```
@@ -32,6 +33,7 @@ Erick Harrington harrington@gmail.com
 ```
 
 - If the strategy is ```ANY```, the program prints the lines containing at least one word from the query.
+
 Query:
 
 ```
@@ -48,6 +50,7 @@ Rene Webb webb@gmail.com
 ```
 
 - If the strategy is ```NONE```, the program prints lines that do not contain words from the query at all:
+
 Query:
 
 ```
