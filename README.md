@@ -13,7 +13,8 @@ To run the program from CMD:
   4. Run the program: ./Simple_Search_Engine java -cp task\src search.Main
   
 The CMD example is below: 
-IMAGE
+
+![image](https://user-images.githubusercontent.com/106676944/210052645-11a43d91-756f-49d1-afa1-e1346b298ad1.png)
 
 ## Strategies description
 Lets consider these six sample lines:
