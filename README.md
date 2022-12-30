@@ -5,6 +5,8 @@ Search engine that processes some data and searches it for a word or a phrase ac
 - Inverted Index search
 - Searching strategies: ALL, ANY, and NONE
 ## Running the project
+To run the program you will need The Java Development Kit (JDK) installed.
+
 To run the program from CMD:
 
   1. Open CMD and go to ./Simple_Search_Engine/task/src/search
