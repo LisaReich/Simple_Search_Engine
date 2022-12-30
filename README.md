@@ -5,8 +5,16 @@ Search engine that processes some data and searches it for a word or a phrase ac
 - Inverted Index search
 - Searching strategies: ALL, ANY, and NONE
 ## Running the project
-The Source files for this project can be found by navigating to:  
-Simple_Search_Engine/task/src/search/Main.java
+To run the program from CMD:
+
+  1. Open CMD and go to ./Simple_Search_Engine/task/src/search
+  2. Compile the Java code: ./Simple_Search_Engine/task/src/search javac *.java
+  3. Change directory to ./Simple_Search_Engine: cd ../../..
+  4. Run the program: ./Simple_Search_Engine java -cp task\src search.Main
+  
+The CMD example is below: 
+IMAGE
+
 ## Strategies description
 Lets consider these six sample lines:
 
