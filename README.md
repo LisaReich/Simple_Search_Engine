@@ -10,44 +10,57 @@ Simple_Search_Engine/task/src/search/Main.java
 ## Strategies description
 Lets consider these six sample lines:
 
-```Dwight Joseph djo@gmail.com
+```
+Dwight Joseph djo@gmail.com
 Rene Webb webb@gmail.com
 Katie Jacobs
 Erick Harrington harrington@gmail.com
 Myrtle Medina
-Erick Burgess```
-
+Erick Burgess
+```
 - If the strategy is ```ALL```, the program prints lines containing all the words from the query.
 Query:
 
-```Harrington Erick```
+```
+Harrington Erick
+```
 
 Result:
 
-```Erick Harrington harrington@gmail.com```
+```
+Erick Harrington harrington@gmail.com
+```
 
 - If the strategy is ```ANY```, the program prints the lines containing at least one word from the query.
 Query:
 
-```Erick Dwight webb@gmail.com```
+```
+Erick Dwight webb@gmail.com
+```
 
 Result:
 
-```Erick Harrington harrington@gmail.com
+```
+Erick Harrington harrington@gmail.com
 Erick Burgess
 Dwight Joseph djo@gmail.com
-Rene Webb webb@gmail.com```
+Rene Webb webb@gmail.com
+```
 
 - If the strategy is ```NONE```, the program prints lines that do not contain words from the query at all:
 Query:
 
-```djo@gmail.com ERICK```
+```
+djo@gmail.com ERICK
+```
 
 Result:
 
-```Katie Jacobs
+```
+Katie Jacobs
 Myrtle Medina
-Rene Webb webb@gmail.com```
+Rene Webb webb@gmail.com
+```
 
 ## Usage
 **Example 1**   
